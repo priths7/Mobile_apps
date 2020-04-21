@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:id="@+id/profile_page"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Your Profile"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/wel"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wel"
+        android:layout_marginTop="100dp"
+        android:text="Your Email ID:"
+        android:id="@+id/email"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/email"
+        android:layout_below="@id/wel"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/email_id"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginTop="50dp"
+        android:text="Your UID:"
+        android:id="@+id/uid"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_id"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/uid"
+        android:layout_marginLeft="20dp"
+        android:text=""
+        android:id="@+id/UID_data"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UID_data"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:text="logout"
+        android:id="@+id/signout"
+        />
+
+
+</RelativeLayout>
