@@ -1,0 +1,20 @@
+Dependencies:
+com.google.firebase:firebase-auth:19.3.0
+
+minSdkVersion: 16
+targetSdkVersion 29
+
+Android Studio Version: 3.6.2
+
+Features:
+
+1. Animated UI Background, the background colour changes in a certain duration time.
+
+2. Login and Signup to your account to get started.
+
+3. Two factor authentication: Using the google firebase authentication, a 2 factor authentication has been implemented. 
+Enter your login details ( Emailid , password) to proceed to otp authentication. Enter your mobile no, 
+to proceed with the login process.
+
+4. Shows your Email ID and UID(Unique Identification) code in the database. 
+
